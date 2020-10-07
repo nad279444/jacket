@@ -35,10 +35,10 @@ export default function SingleJackets() {
             <Text style={styles.box}>XL</Text>
       </View>
       <View style={styles.bigbox}>
-              <Text>Total Amount</Text>
-              <Text>$110</Text> 
+              <Text style={styles.total}>Total Amount</Text>
+              <Text style={styles.amount}>$110</Text> 
           <View style={styles.smallbox}>
-              <Text> Add to Cart</Text>
+              <Text style={styles.add}>  Add to Cart</Text>
           </View>
       </View>
      
@@ -48,14 +48,14 @@ export default function SingleJackets() {
 
 const styles = StyleSheet.create({
     image : {
-        width: 270,
-        height: 270,
+        width: 200,
+        height: 200,
         marginVertical: 30,
         borderBottomRightRadius: 40,
         borderBottomLeftRadius : 20,
         borderTopRightRadius : 30,
-        marginLeft: 25,
-        flex: 3
+        marginLeft: 85,
+        
     },
     love : {
         width: 30,
@@ -126,33 +126,49 @@ const styles = StyleSheet.create({
         padding: 10,
         color: 'black',
         fontSize: 20,
-        borderRadius: 5
+        borderRadius: 5,
+        justifyContent: 'center',
+        alignItems: 'center'
       },
       boxContainer: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginVertical: 10
       },
       bigbox : {
-          width: 350,
+          width: 300,
           height: 70,
           backgroundColor: '#587bcc',
           justifyContent: 'center',
           padding: 10,
-          borderRadius: 20 
+          borderRadius: 20 ,
+          
+
 
         
       },
       smallbox: {
-          width: 80,
+          width: 100,
           height: 40,
           borderRadius: 10,
           backgroundColor: '#031745',
           justifyContent: 'center',
           alignItems: 'center',
-          color: 'white',
           position: 'absolute',
           top: 20,
-          left: 150
+          left: 180
 
+      },
+      total : {
+          color : 'white',
+          fontSize: 10
+      },
+      amount : {
+          color: 'white',
+          fontSize: 20,
+          fontWeight: 'bold'
+      },
+      add: {
+        color: 'white', 
       }
 
 }) 
