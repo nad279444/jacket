@@ -3,7 +3,8 @@ import { StyleSheet } from "react-native"
 export const globalStyles = StyleSheet.create({
     container: {
       padding: 24,
-      backgroundColor:'#f2e9e9',
+      backgroundColor:'#f7f5f5',
+  
     
     },
     iconContainer : {
@@ -24,6 +25,7 @@ export const globalStyles = StyleSheet.create({
     
       
     },
+    
     arrow : {
       marginLeft: 2,
       width: 30,

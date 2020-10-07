@@ -27,8 +27,8 @@ class Star extends React.Component {
         maxStars={5}
         rating={this.state.starCount}
         selectedStar={(rating) => this.onStarRatingPress(rating)}
-        fullStarColor={'yellow'}
-        starSize={18}
+        fullStarColor={'red'}
+        starSize={15}
       />
     );
   }
