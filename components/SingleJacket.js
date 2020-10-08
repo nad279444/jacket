@@ -48,13 +48,13 @@ export default function SingleJackets() {
 
 const styles = StyleSheet.create({
     image : {
-        width: 200,
-        height: 200,
-        marginVertical: 30,
+        width: 250,
+        height: 250,
+        marginVertical: 10,
         borderBottomRightRadius: 40,
         borderBottomLeftRadius : 20,
         borderTopRightRadius : 30,
-        marginLeft: 85,
+        marginLeft: 40,
         
     },
     love : {
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
           height: 40,
           backgroundColor: 'white',
           marginLeft: -10,
-          marginVertical: 20,
+          marginVertical: 10,
           justifyContent: 'center',
           alignItems: 'center',
           paddingLeft: -50
@@ -106,33 +106,41 @@ const styles = StyleSheet.create({
           fontSize: 10
       },
       box: {
-          width: 25,
-          height: 25,
+          width: 35,
+          height: 35,
           borderColor: 'black',
           backgroundColor: 'white',
           marginLeft: 10,
-          padding: 10,
-          color: 'black',
-          fontSize: 20,
-          borderRadius: 5
+          paddingTop: 10,
+          paddingLeft: 13,
+          color:'black',
+          fontWeight: 'bold',
+          borderRadius: 5,
+          fontSize: 10
+          
          
       },
+      
+      
       bluebox: {
-        width: 25,
-        height: 25,
+        width: 35,
+        height: 35,
         borderColor: 'black',
-        backgroundColor: 'blue',
+        backgroundColor: '#93cbed',
         marginLeft: 10,
-        padding: 10,
+        paddingLeft: 13,
+        paddingTop: 10,
         color: 'black',
-        fontSize: 20,
+        fontSize: 10,
         borderRadius: 5,
-        justifyContent: 'center',
-        alignItems: 'center'
+        fontWeight: 'bold'
       },
       boxContainer: {
         flexDirection: 'row',
-        marginVertical: 10
+        marginVertical: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginLeft: -110
       },
       bigbox : {
           width: 300,
@@ -141,6 +149,7 @@ const styles = StyleSheet.create({
           justifyContent: 'center',
           padding: 10,
           borderRadius: 20 ,
+          marginVertical: 10,
           
 
 
@@ -154,7 +163,7 @@ const styles = StyleSheet.create({
           justifyContent: 'center',
           alignItems: 'center',
           position: 'absolute',
-          top: 20,
+          top: 15,
           left: 180
 
       },
